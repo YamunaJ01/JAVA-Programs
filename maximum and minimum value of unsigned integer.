@@ -1,0 +1,12 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        long min = 0L;
+        long max = (1L << 32) - 1;
+        System.out.println("Minimum value of unsigned integer is " + min);
+        System.out.println("Maximum value of unsigned integer is " +max);
+    }
+}

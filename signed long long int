@@ -1,0 +1,13 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        System.out.println("Minimum value of signed long long integer is " + Long.MIN_VALUE);
+        System.out.println("Maximum value of signed long long integer is " + Long.MAX_VALUE);
+    }
+}

@@ -1,0 +1,18 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String s = sc.nextLine(); // read full line, including spaces  
+        if (s.length() > 10) {
+            System.out.println(s.substring(0, 10)); 
+        } else {
+            System.out.println(s); 
+        }
+    }
+}

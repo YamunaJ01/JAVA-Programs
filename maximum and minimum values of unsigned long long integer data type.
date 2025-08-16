@@ -1,0 +1,13 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+public class Solution {
+    public static void main(String[] args) {
+        long min = 0L;
+        long max = 4294967295L;
+        System.out.println("Minimum value of unsigned long long integer is " + min + "ll");
+        System.out.println("Maximum value of unsigned long long integer is " + max + "ll");
+            }
+}

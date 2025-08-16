@@ -1,0 +1,15 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        byte minValue = Byte.MIN_VALUE;
+        byte maxValue = Byte.MAX_VALUE;
+        System.out.println("Minimum value of signed character is " + minValue);
+        System.out.println("Maximum value of signed character is " + maxValue);
+    }
+}

@@ -1,0 +1,23 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int basic = sc.nextInt();
+        double hra = 0, da = 0;
+        if (basic <= 10000) {
+            hra = 0.2; da = 0.8;
+        } else if (basic <= 20000) {
+            hra = 0.25; da = 0.9;
+        } else {
+            hra = 0.3; da = 0.95;
+        }
+        double gross = basic + (hra + da) * basic;
+        System.out.printf("Rs.%.2f\n", gross);
+    }
+}
